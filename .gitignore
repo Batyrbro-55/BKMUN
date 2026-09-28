@@ -6,3 +6,6 @@ node_modules/
 .DS_Store
 Thumbs.db
 *.log
+
+# Reassembled from media parts by the build
+dist/assets/kolsay.mp4

@@ -2,3 +2,4 @@
 *.ics -text
 *.jpg -text
 *.mp4 -text
+*.part -text
