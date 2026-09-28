@@ -49,4 +49,3 @@ npm run dev
 ## Медиа
 
 См. [ASSETS.md](ASSETS.md). BKMUN не аффилирована с ООН.
-

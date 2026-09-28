@@ -1,0 +1,12 @@
+{
+  "name": "bkmun-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "BKMUN multilingual website and Delegate Hub",
+  "scripts": {
+    "build": "node generate-pages.cjs",
+    "dev": "node preview.cjs",
+    "start": "node preview.cjs",
+    "test": "node scripts/test.cjs"
+  }
+}

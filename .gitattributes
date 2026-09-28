@@ -1,0 +1,4 @@
+* text=auto eol=lf
+*.ics -text
+*.jpg -text
+*.mp4 -text
