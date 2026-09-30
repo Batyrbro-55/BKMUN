@@ -12,7 +12,7 @@ for(const lang of ['en','ru','kk'])for(const page of ['conference','delegate-hub
  if(page==='delegate-hub')assert.equal([...html.matchAll(/data-check="/g)].length,8);
 }
 const ics=fs.readFileSync(root+'/bkmun-october-2026.ics','utf8');
-assert(ics.includes('DTSTART;VALUE=DATE:20261003\r\nDTEND;VALUE=DATE:20261005'));
+assert(ics.includes('DTSTART;VALUE=DATE:20261017\r\nDTEND;VALUE=DATE:20261019'));
 assert(!/(?<!\r)\n/.test(ics),'ICS must use CRLF');
 for(const line of ics.split('\r\n'))assert(Buffer.byteLength(line)<=75,'ICS line too long: '+line);
 const code=fs.readFileSync(root+'/pages.js','utf8');
